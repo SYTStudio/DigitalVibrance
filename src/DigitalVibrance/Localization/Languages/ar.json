@@ -1,0 +1,77 @@
+{
+  "code": "ar",
+  "name": "العربية",
+  "englishName": "Arabic",
+  "rtl": true,
+  "strings": {
+    "Tagline": "يعمل فوق التعريف",
+    "Master": "الرئيسي",
+    "MasterTip": "إيقاف كل التأثيرات دفعة واحدة",
+    "WinMinimize": "تصغير",
+    "WinMaximize": "تكبير",
+    "WinClose": "إغلاق",
+    "LanguageTip": "تغيير اللغة",
+
+    "GamesTitle": "الألعاب",
+    "GamesAdd": "إضافة لعبة",
+    "EmptyTitle": "لا توجد ألعاب بعد",
+    "EmptyHint": "اسحب ملف .exe الخاص باللعبة إلى هنا، أو اضغط «إضافة لعبة».",
+
+    "DesktopTitle": "ملف سطح المكتب",
+    "DesktopSubtitle": "يُطبَّق عندما لا تكون أي لعبة نشطة.",
+    "DesktopUse": "استخدامه على سطح المكتب",
+    "ProfileToggleTip": "تشغيل أو إيقاف هذا الملف",
+
+    "ModeHeader": "متى يُطبَّق",
+    "ModeForeground": "عند التركيز",
+    "ModeForegroundTip": "تُطبَّق الألوان فقط أثناء كون نافذة اللعبة نشطة",
+    "ModeRunning": "أثناء التشغيل",
+    "ModeRunningTip": "تُطبَّق الألوان طوال مدة تشغيل عملية اللعبة",
+
+    "SectionVibrance": "التشبّع",
+    "Vibrance": "التشبّع",
+    "VibranceHint": "‏50% = محايد (مثل NVIDIA). 0% = أبيض وأسود.",
+    "OverrideTitle": "‏+100% تجاوز",
+    "OverrideHint": "يفتح النطاق 100–200%، أبعد مما يسمح به التعريف.",
+    "OverrideWarning": "فوق 100% تبدأ الألوان بالانقطاع — وتضيع التفاصيل في المناطق الساطعة.",
+
+    "SectionImage": "الصورة",
+    "Contrast": "التباين",
+    "Brightness": "السطوع",
+    "Temperature": "الحرارة",
+    "TemperatureHint": "أقل من 50 أبرد/أزرق، وأعلى من 50 أدفأ/برتقالي.",
+    "Tint": "الصبغة",
+    "TintHint": "أقل من 50 أخضر، وأعلى من 50 أرجواني.",
+
+    "PreviewTitle": "معاينة حية",
+    "PreviewHint": "يعرض الملف المحدد على الشاشة فوراً.",
+
+    "BtnReset": "إعادة تعيين",
+    "BtnClose": "إغلاق",
+    "BtnDelete": "حذف",
+    "OpenSettingsFolder": "فتح مجلد الإعدادات",
+
+    "PickTitle": "اختر ملف .exe الخاص باللعبة",
+    "PickFilter": "البرامج (*.exe)|*.exe|كل الملفات (*.*)|*.*",
+    "DuplicateTitle": "مُضاف مسبقاً",
+    "DuplicateBody": "«{0}» يستخدم {1} بالفعل.",
+    "DeleteTitle": "تأكيد",
+    "DeleteBody": "هل تريد حذف الملف «{0}»؟",
+    "ErrorTitle": "خطأ",
+
+    "StatusEngineUnavailable": "المحرّك غير متاح",
+    "StatusDisabled": "متوقف",
+    "StatusDisabledDetail": "المفتاح الرئيسي متوقف",
+    "StatusPreview": "معاينة حية",
+    "StatusActive": "نشط",
+    "StatusDesktop": "ملف سطح المكتب",
+    "StatusWaiting": "بانتظار لعبة",
+    "StatusNoProfiles": "لا توجد ملفات",
+
+    "TrayShow": "إظهار النافذة",
+    "TrayExit": "خروج",
+    "EngineFailedBody": "لم تبدأ خدمة التكبير في Windows، لذا لا يمكن تطبيق الألوان.",
+    "AlreadyRunningBody": "‏Digital Vibrance يعمل بالفعل.\nتحقق من الأيقونة في شريط النظام.",
+    "CrashBody": "خطأ غير متوقع:"
+  }
+}

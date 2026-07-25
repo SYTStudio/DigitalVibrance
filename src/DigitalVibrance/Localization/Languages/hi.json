@@ -1,0 +1,77 @@
+{
+  "code": "hi",
+  "name": "हिन्दी",
+  "englishName": "Hindi",
+  "rtl": false,
+  "strings": {
+    "Tagline": "ड्राइवर के ऊपर चलता है",
+    "Master": "मास्टर",
+    "MasterTip": "सभी प्रभाव एक साथ बंद करें",
+    "WinMinimize": "छोटा करें",
+    "WinMaximize": "बड़ा करें",
+    "WinClose": "बंद करें",
+    "LanguageTip": "भाषा बदलें",
+
+    "GamesTitle": "गेम",
+    "GamesAdd": "गेम जोड़ें",
+    "EmptyTitle": "अभी कोई गेम नहीं",
+    "EmptyHint": "गेम की .exe फ़ाइल यहाँ खींचें, या “गेम जोड़ें” पर क्लिक करें।",
+
+    "DesktopTitle": "डेस्कटॉप प्रोफ़ाइल",
+    "DesktopSubtitle": "जब कोई गेम सक्रिय न हो तब लागू होती है।",
+    "DesktopUse": "डेस्कटॉप पर उपयोग करें",
+    "ProfileToggleTip": "यह प्रोफ़ाइल चालू या बंद करें",
+
+    "ModeHeader": "यह कब लागू होगा",
+    "ModeForeground": "फ़ोकस में",
+    "ModeForegroundTip": "रंग तभी लागू होते हैं जब गेम की विंडो सक्रिय हो",
+    "ModeRunning": "चलने के दौरान",
+    "ModeRunningTip": "जब तक गेम की प्रक्रिया चल रही है तब तक रंग लागू रहते हैं",
+
+    "SectionVibrance": "वाइब्रेंस",
+    "Vibrance": "वाइब्रेंस",
+    "VibranceHint": "50% = तटस्थ (NVIDIA जैसा)। 0% = श्वेत-श्याम।",
+    "OverrideTitle": "+100% ओवरराइड",
+    "OverrideHint": "100–200% खोलता है, जितना ड्राइवर देता है उससे भी आगे।",
+    "OverrideWarning": "100% से ऊपर रंग कटने लगते हैं — चमकीले हिस्सों की बारीकी खो जाती है।",
+
+    "SectionImage": "चित्र",
+    "Contrast": "कंट्रास्ट",
+    "Brightness": "चमक",
+    "Temperature": "तापमान",
+    "TemperatureHint": "50 से नीचे ठंडा/नीला, 50 से ऊपर गर्म/नारंगी।",
+    "Tint": "टिंट",
+    "TintHint": "50 से नीचे हरा, 50 से ऊपर मैजेंटा।",
+
+    "PreviewTitle": "लाइव प्रीव्यू",
+    "PreviewHint": "चुनी हुई प्रोफ़ाइल तुरंत स्क्रीन पर दिखाता है।",
+
+    "BtnReset": "रीसेट",
+    "BtnClose": "बंद करें",
+    "BtnDelete": "हटाएँ",
+    "OpenSettingsFolder": "सेटिंग्स फ़ोल्डर खोलें",
+
+    "PickTitle": "गेम की .exe चुनें",
+    "PickFilter": "प्रोग्राम (*.exe)|*.exe|सभी फ़ाइलें (*.*)|*.*",
+    "DuplicateTitle": "पहले से जोड़ा गया",
+    "DuplicateBody": "“{0}” पहले से {1} का उपयोग करता है।",
+    "DeleteTitle": "पुष्टि करें",
+    "DeleteBody": "क्या प्रोफ़ाइल “{0}” हटानी है?",
+    "ErrorTitle": "त्रुटि",
+
+    "StatusEngineUnavailable": "इंजन उपलब्ध नहीं",
+    "StatusDisabled": "बंद",
+    "StatusDisabledDetail": "मास्टर स्विच बंद है",
+    "StatusPreview": "लाइव प्रीव्यू",
+    "StatusActive": "सक्रिय",
+    "StatusDesktop": "डेस्कटॉप प्रोफ़ाइल",
+    "StatusWaiting": "गेम की प्रतीक्षा",
+    "StatusNoProfiles": "कोई प्रोफ़ाइल नहीं",
+
+    "TrayShow": "विंडो दिखाएँ",
+    "TrayExit": "बाहर निकलें",
+    "EngineFailedBody": "Windows Magnification सेवा शुरू नहीं हुई, इसलिए रंग लागू नहीं किए जा सकते।",
+    "AlreadyRunningBody": "Digital Vibrance पहले से चल रहा है।\nसिस्टम ट्रे में आइकन देखें।",
+    "CrashBody": "अप्रत्याशित त्रुटि:"
+  }
+}

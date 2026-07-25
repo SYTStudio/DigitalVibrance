@@ -1,0 +1,77 @@
+{
+  "code": "pt",
+  "name": "Português",
+  "englishName": "Portuguese",
+  "rtl": false,
+  "strings": {
+    "Tagline": "funciona acima do driver",
+    "Master": "Master",
+    "MasterTip": "Desligar todos os efeitos de uma vez",
+    "WinMinimize": "Minimizar",
+    "WinMaximize": "Maximizar",
+    "WinClose": "Fechar",
+    "LanguageTip": "Mudar idioma",
+
+    "GamesTitle": "Jogos",
+    "GamesAdd": "Adicionar jogo",
+    "EmptyTitle": "Ainda não há jogos",
+    "EmptyHint": "Arraste o .exe de um jogo para aqui ou clique em “Adicionar jogo”.",
+
+    "DesktopTitle": "Perfil da área de trabalho",
+    "DesktopSubtitle": "Aplica-se quando nenhum jogo está ativo.",
+    "DesktopUse": "Usar na área de trabalho",
+    "ProfileToggleTip": "Ativar ou desativar este perfil",
+
+    "ModeHeader": "QUANDO SE APLICA",
+    "ModeForeground": "Em foco",
+    "ModeForegroundTip": "As cores só se aplicam enquanto a janela do jogo estiver ativa",
+    "ModeRunning": "Enquanto executa",
+    "ModeRunningTip": "As cores aplicam-se durante todo o tempo em que o processo do jogo estiver a correr",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50% = neutro (igual à NVIDIA). 0% = preto e branco.",
+    "OverrideTitle": "+100% Override",
+    "OverrideHint": "Desbloqueia 100–200%, além do que o driver permite.",
+    "OverrideWarning": "Acima de 100% as cores começam a saturar em excesso — perde-se detalhe nas áreas claras.",
+
+    "SectionImage": "IMAGEM",
+    "Contrast": "Contraste",
+    "Brightness": "Brilho",
+    "Temperature": "Temperatura",
+    "TemperatureHint": "Abaixo de 50 mais frio/azul, acima de 50 mais quente/laranja.",
+    "Tint": "Matiz",
+    "TintHint": "Abaixo de 50 verde, acima de 50 magenta.",
+
+    "PreviewTitle": "Pré-visualização ao vivo",
+    "PreviewHint": "Mostra o perfil selecionado no ecrã de imediato.",
+
+    "BtnReset": "Repor",
+    "BtnClose": "Fechar",
+    "BtnDelete": "Eliminar",
+    "OpenSettingsFolder": "Abrir a pasta de definições",
+
+    "PickTitle": "Escolher o .exe do jogo",
+    "PickFilter": "Programas (*.exe)|*.exe|Todos os ficheiros (*.*)|*.*",
+    "DuplicateTitle": "Já adicionado",
+    "DuplicateBody": "“{0}” já usa {1}.",
+    "DeleteTitle": "Confirmação",
+    "DeleteBody": "Eliminar o perfil “{0}”?",
+    "ErrorTitle": "Erro",
+
+    "StatusEngineUnavailable": "Motor indisponível",
+    "StatusDisabled": "Desligado",
+    "StatusDisabledDetail": "O interruptor master está desligado",
+    "StatusPreview": "Pré-visualização ao vivo",
+    "StatusActive": "Ativo",
+    "StatusDesktop": "Perfil da área de trabalho",
+    "StatusWaiting": "À espera de um jogo",
+    "StatusNoProfiles": "Sem perfis",
+
+    "TrayShow": "Mostrar janela",
+    "TrayExit": "Sair",
+    "EngineFailedBody": "O serviço de Lupa do Windows não arrancou, por isso as cores não podem ser aplicadas.",
+    "AlreadyRunningBody": "O Digital Vibrance já está a correr.\nVerifique o ícone na área de notificação.",
+    "CrashBody": "Erro inesperado:"
+  }
+}

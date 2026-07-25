@@ -1,0 +1,77 @@
+{
+  "code": "pl",
+  "name": "Polski",
+  "englishName": "Polish",
+  "rtl": false,
+  "strings": {
+    "Tagline": "działa ponad sterownikiem",
+    "Master": "Główny",
+    "MasterTip": "Wyłącz wszystkie efekty naraz",
+    "WinMinimize": "Minimalizuj",
+    "WinMaximize": "Maksymalizuj",
+    "WinClose": "Zamknij",
+    "LanguageTip": "Zmień język",
+
+    "GamesTitle": "Gry",
+    "GamesAdd": "Dodaj grę",
+    "EmptyTitle": "Nie ma jeszcze żadnych gier",
+    "EmptyHint": "Przeciągnij tutaj plik .exe gry albo kliknij „Dodaj grę”.",
+
+    "DesktopTitle": "Profil pulpitu",
+    "DesktopSubtitle": "Stosowany, gdy żadna gra nie jest aktywna.",
+    "DesktopUse": "Używaj na pulpicie",
+    "ProfileToggleTip": "Włącz lub wyłącz ten profil",
+
+    "ModeHeader": "KIEDY DZIAŁA",
+    "ModeForeground": "Na pierwszym planie",
+    "ModeForegroundTip": "Kolory działają tylko wtedy, gdy okno gry jest aktywne",
+    "ModeRunning": "Gdy gra działa",
+    "ModeRunningTip": "Kolory działają przez cały czas, gdy proces gry jest uruchomiony",
+
+    "SectionVibrance": "NASYCENIE",
+    "Vibrance": "Nasycenie",
+    "VibranceHint": "50% = neutralnie (tak jak NVIDIA). 0% = czarno-białe.",
+    "OverrideTitle": "+100% Override",
+    "OverrideHint": "Odblokowuje 100–200%, powyżej tego, na co pozwala sterownik.",
+    "OverrideWarning": "Powyżej 100% kolory zaczynają się przycinać — szczegóły w jasnych partiach giną.",
+
+    "SectionImage": "OBRAZ",
+    "Contrast": "Kontrast",
+    "Brightness": "Jasność",
+    "Temperature": "Temperatura",
+    "TemperatureHint": "Poniżej 50 chłodniej/niebiesko, powyżej 50 cieplej/pomarańczowo.",
+    "Tint": "Odcień",
+    "TintHint": "Poniżej 50 zielony, powyżej 50 magenta.",
+
+    "PreviewTitle": "Podgląd na żywo",
+    "PreviewHint": "Od razu pokazuje wybrany profil na ekranie.",
+
+    "BtnReset": "Resetuj",
+    "BtnClose": "Zamknij",
+    "BtnDelete": "Usuń",
+    "OpenSettingsFolder": "Otwórz folder ustawień",
+
+    "PickTitle": "Wybierz plik .exe gry",
+    "PickFilter": "Programy (*.exe)|*.exe|Wszystkie pliki (*.*)|*.*",
+    "DuplicateTitle": "Już dodano",
+    "DuplicateBody": "„{0}” już używa {1}.",
+    "DeleteTitle": "Potwierdzenie",
+    "DeleteBody": "Usunąć profil „{0}”?",
+    "ErrorTitle": "Błąd",
+
+    "StatusEngineUnavailable": "Silnik niedostępny",
+    "StatusDisabled": "Wyłączone",
+    "StatusDisabledDetail": "Główny przełącznik jest wyłączony",
+    "StatusPreview": "Podgląd na żywo",
+    "StatusActive": "Aktywne",
+    "StatusDesktop": "Profil pulpitu",
+    "StatusWaiting": "Czekam na grę",
+    "StatusNoProfiles": "Brak profili",
+
+    "TrayShow": "Pokaż okno",
+    "TrayExit": "Zakończ",
+    "EngineFailedBody": "Usługa Lupa systemu Windows nie wystartowała, więc nie można zastosować kolorów.",
+    "AlreadyRunningBody": "Digital Vibrance jest już uruchomiony.\nSprawdź ikonę w zasobniku systemowym.",
+    "CrashBody": "Nieoczekiwany błąd:"
+  }
+}

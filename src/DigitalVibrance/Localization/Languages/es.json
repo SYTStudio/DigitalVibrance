@@ -1,0 +1,77 @@
+{
+  "code": "es",
+  "name": "Español",
+  "englishName": "Spanish",
+  "rtl": false,
+  "strings": {
+    "Tagline": "funciona por encima del controlador",
+    "Master": "Master",
+    "MasterTip": "Apagar todos los efectos de una vez",
+    "WinMinimize": "Minimizar",
+    "WinMaximize": "Maximizar",
+    "WinClose": "Cerrar",
+    "LanguageTip": "Cambiar idioma",
+
+    "GamesTitle": "Juegos",
+    "GamesAdd": "Añadir juego",
+    "EmptyTitle": "Aún no hay juegos",
+    "EmptyHint": "Arrastra aquí el .exe de un juego o haz clic en «Añadir juego».",
+
+    "DesktopTitle": "Perfil de escritorio",
+    "DesktopSubtitle": "Se aplica cuando ningún juego está activo.",
+    "DesktopUse": "Usar en el escritorio",
+    "ProfileToggleTip": "Activar o desactivar este perfil",
+
+    "ModeHeader": "CUÁNDO SE APLICA",
+    "ModeForeground": "En primer plano",
+    "ModeForegroundTip": "Los colores se aplican solo mientras la ventana del juego está activa",
+    "ModeRunning": "Mientras se ejecuta",
+    "ModeRunningTip": "Los colores se aplican todo el tiempo que el proceso del juego esté en ejecución",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50 % = neutro (igual que NVIDIA). 0 % = blanco y negro.",
+    "OverrideTitle": "+100 % Override",
+    "OverrideHint": "Desbloquea 100–200 %, más allá de lo que permite el controlador.",
+    "OverrideWarning": "Por encima del 100 % los colores empiezan a recortarse: se pierde detalle en las zonas claras.",
+
+    "SectionImage": "IMAGEN",
+    "Contrast": "Contraste",
+    "Brightness": "Brillo",
+    "Temperature": "Temperatura",
+    "TemperatureHint": "Por debajo de 50 más frío/azul, por encima de 50 más cálido/naranja.",
+    "Tint": "Tinte",
+    "TintHint": "Por debajo de 50 verde, por encima de 50 magenta.",
+
+    "PreviewTitle": "Vista previa en vivo",
+    "PreviewHint": "Muestra el perfil seleccionado en pantalla al instante.",
+
+    "BtnReset": "Restablecer",
+    "BtnClose": "Cerrar",
+    "BtnDelete": "Eliminar",
+    "OpenSettingsFolder": "Abrir la carpeta de ajustes",
+
+    "PickTitle": "Elige el .exe del juego",
+    "PickFilter": "Programas (*.exe)|*.exe|Todos los archivos (*.*)|*.*",
+    "DuplicateTitle": "Ya añadido",
+    "DuplicateBody": "«{0}» ya usa {1}.",
+    "DeleteTitle": "Confirmar",
+    "DeleteBody": "¿Eliminar el perfil «{0}»?",
+    "ErrorTitle": "Error",
+
+    "StatusEngineUnavailable": "Motor no disponible",
+    "StatusDisabled": "Apagado",
+    "StatusDisabledDetail": "El interruptor master está apagado",
+    "StatusPreview": "Vista previa en vivo",
+    "StatusActive": "Activo",
+    "StatusDesktop": "Perfil de escritorio",
+    "StatusWaiting": "Esperando un juego",
+    "StatusNoProfiles": "Sin perfiles",
+
+    "TrayShow": "Mostrar ventana",
+    "TrayExit": "Salir",
+    "EngineFailedBody": "El servicio Lupa de Windows no se inició, por lo que no se pueden aplicar los colores.",
+    "AlreadyRunningBody": "Digital Vibrance ya está en ejecución.\nRevisa el icono en la bandeja del sistema.",
+    "CrashBody": "Error inesperado:"
+  }
+}

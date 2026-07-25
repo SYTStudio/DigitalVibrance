@@ -1,0 +1,77 @@
+{
+  "code": "hr",
+  "name": "Hrvatski",
+  "englishName": "Croatian",
+  "rtl": false,
+  "strings": {
+    "Tagline": "radi iznad upravljačkog programa",
+    "Master": "Glavni",
+    "MasterTip": "Isključi sve efekte odjednom",
+    "WinMinimize": "Minimiziraj",
+    "WinMaximize": "Maksimiziraj",
+    "WinClose": "Zatvori",
+    "LanguageTip": "Promijeni jezik",
+
+    "GamesTitle": "Igre",
+    "GamesAdd": "Dodaj igru",
+    "EmptyTitle": "Još nema nijedne igre",
+    "EmptyHint": "Povuci .exe igre ovamo ili klikni „Dodaj igru”.",
+
+    "DesktopTitle": "Profil radne površine",
+    "DesktopSubtitle": "Primjenjuje se kad nijedna igra nije aktivna.",
+    "DesktopUse": "Koristi na radnoj površini",
+    "ProfileToggleTip": "Uključi ili isključi ovaj profil",
+
+    "ModeHeader": "KADA SE PRIMJENJUJE",
+    "ModeForeground": "U fokusu",
+    "ModeForegroundTip": "Boje rade samo dok je prozor igre aktivan",
+    "ModeRunning": "Dok radi",
+    "ModeRunningTip": "Boje rade cijelo vrijeme dok je proces igre pokrenut",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50% = neutralno (kao NVIDIA). 0% = crno-bijelo.",
+    "OverrideTitle": "+100% Override",
+    "OverrideHint": "Otključava 100–200%, iznad onoga što upravljački program dopušta.",
+    "OverrideWarning": "Iznad 100% boje se počinju rezati — detalji u svijetlim površinama se gube.",
+
+    "SectionImage": "SLIKA",
+    "Contrast": "Kontrast",
+    "Brightness": "Svjetlina",
+    "Temperature": "Temperatura",
+    "TemperatureHint": "Ispod 50 hladnije/plavo, iznad 50 toplije/narančasto.",
+    "Tint": "Nijansa",
+    "TintHint": "Ispod 50 zeleno, iznad 50 magenta.",
+
+    "PreviewTitle": "Pregled uživo",
+    "PreviewHint": "Odmah prikazuje odabrani profil na zaslonu.",
+
+    "BtnReset": "Poništi",
+    "BtnClose": "Zatvori",
+    "BtnDelete": "Obriši",
+    "OpenSettingsFolder": "Otvori mapu s postavkama",
+
+    "PickTitle": "Odaberi .exe igre",
+    "PickFilter": "Programi (*.exe)|*.exe|Sve datoteke (*.*)|*.*",
+    "DuplicateTitle": "Već dodano",
+    "DuplicateBody": "„{0}” već koristi {1}.",
+    "DeleteTitle": "Potvrda",
+    "DeleteBody": "Želite li obrisati profil „{0}”?",
+    "ErrorTitle": "Pogreška",
+
+    "StatusEngineUnavailable": "Engine nedostupan",
+    "StatusDisabled": "Isključeno",
+    "StatusDisabledDetail": "Glavni prekidač je isključen",
+    "StatusPreview": "Pregled uživo",
+    "StatusActive": "Aktivno",
+    "StatusDesktop": "Profil radne površine",
+    "StatusWaiting": "Čekam igru",
+    "StatusNoProfiles": "Nema profila",
+
+    "TrayShow": "Prikaži prozor",
+    "TrayExit": "Izlaz",
+    "EngineFailedBody": "Windows Magnification servis se nije pokrenuo pa se boje ne mogu primijeniti.",
+    "AlreadyRunningBody": "Digital Vibrance je već pokrenut.\nProvjerite ikonu u traci sustava.",
+    "CrashBody": "Neočekivana pogreška:"
+  }
+}

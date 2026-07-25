@@ -1,0 +1,77 @@
+{
+  "code": "it",
+  "name": "Italiano",
+  "englishName": "Italian",
+  "rtl": false,
+  "strings": {
+    "Tagline": "funziona sopra il driver",
+    "Master": "Master",
+    "MasterTip": "Disattiva tutti gli effetti in una volta",
+    "WinMinimize": "Riduci a icona",
+    "WinMaximize": "Ingrandisci",
+    "WinClose": "Chiudi",
+    "LanguageTip": "Cambia lingua",
+
+    "GamesTitle": "Giochi",
+    "GamesAdd": "Aggiungi gioco",
+    "EmptyTitle": "Ancora nessun gioco",
+    "EmptyHint": "Trascina qui l'.exe di un gioco oppure clicca “Aggiungi gioco”.",
+
+    "DesktopTitle": "Profilo desktop",
+    "DesktopSubtitle": "Si applica quando nessun gioco è attivo.",
+    "DesktopUse": "Usa sul desktop",
+    "ProfileToggleTip": "Attiva o disattiva questo profilo",
+
+    "ModeHeader": "QUANDO SI APPLICA",
+    "ModeForeground": "In primo piano",
+    "ModeForegroundTip": "I colori si applicano solo mentre la finestra del gioco è attiva",
+    "ModeRunning": "Mentre è in esecuzione",
+    "ModeRunningTip": "I colori si applicano per tutto il tempo in cui il processo del gioco è in esecuzione",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50% = neutro (come NVIDIA). 0% = bianco e nero.",
+    "OverrideTitle": "+100% Override",
+    "OverrideHint": "Sblocca 100–200%, oltre ciò che il driver consente.",
+    "OverrideWarning": "Sopra il 100% i colori iniziano a saturarsi oltre il limite — i dettagli nelle zone chiare si perdono.",
+
+    "SectionImage": "IMMAGINE",
+    "Contrast": "Contrasto",
+    "Brightness": "Luminosità",
+    "Temperature": "Temperatura",
+    "TemperatureHint": "Sotto 50 più freddo/blu, sopra 50 più caldo/arancione.",
+    "Tint": "Tinta",
+    "TintHint": "Sotto 50 verde, sopra 50 magenta.",
+
+    "PreviewTitle": "Anteprima dal vivo",
+    "PreviewHint": "Mostra subito sullo schermo il profilo selezionato.",
+
+    "BtnReset": "Reimposta",
+    "BtnClose": "Chiudi",
+    "BtnDelete": "Elimina",
+    "OpenSettingsFolder": "Apri la cartella delle impostazioni",
+
+    "PickTitle": "Scegli l'.exe del gioco",
+    "PickFilter": "Programmi (*.exe)|*.exe|Tutti i file (*.*)|*.*",
+    "DuplicateTitle": "Già aggiunto",
+    "DuplicateBody": "“{0}” usa già {1}.",
+    "DeleteTitle": "Conferma",
+    "DeleteBody": "Eliminare il profilo “{0}”?",
+    "ErrorTitle": "Errore",
+
+    "StatusEngineUnavailable": "Engine non disponibile",
+    "StatusDisabled": "Spento",
+    "StatusDisabledDetail": "L'interruttore master è spento",
+    "StatusPreview": "Anteprima dal vivo",
+    "StatusActive": "Attivo",
+    "StatusDesktop": "Profilo desktop",
+    "StatusWaiting": "In attesa di un gioco",
+    "StatusNoProfiles": "Nessun profilo",
+
+    "TrayShow": "Mostra finestra",
+    "TrayExit": "Esci",
+    "EngineFailedBody": "Il servizio Lente di ingrandimento di Windows non è partito, quindi i colori non possono essere applicati.",
+    "AlreadyRunningBody": "Digital Vibrance è già in esecuzione.\nControlla l'icona nell'area di notifica.",
+    "CrashBody": "Errore imprevisto:"
+  }
+}

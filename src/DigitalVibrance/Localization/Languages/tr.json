@@ -1,0 +1,77 @@
+{
+  "code": "tr",
+  "name": "Türkçe",
+  "englishName": "Turkish",
+  "rtl": false,
+  "strings": {
+    "Tagline": "sürücünün üstünde çalışır",
+    "Master": "Ana",
+    "MasterTip": "Tüm efektleri tek seferde kapat",
+    "WinMinimize": "Simge durumuna küçült",
+    "WinMaximize": "Ekranı kapla",
+    "WinClose": "Kapat",
+    "LanguageTip": "Dili değiştir",
+
+    "GamesTitle": "Oyunlar",
+    "GamesAdd": "Oyun ekle",
+    "EmptyTitle": "Henüz oyun yok",
+    "EmptyHint": "Bir oyunun .exe dosyasını buraya sürükleyin ya da “Oyun ekle”ye tıklayın.",
+
+    "DesktopTitle": "Masaüstü profili",
+    "DesktopSubtitle": "Hiçbir oyun etkin değilken uygulanır.",
+    "DesktopUse": "Masaüstünde kullan",
+    "ProfileToggleTip": "Bu profili aç veya kapat",
+
+    "ModeHeader": "NE ZAMAN UYGULANIR",
+    "ModeForeground": "Odaktayken",
+    "ModeForegroundTip": "Renkler yalnızca oyun penceresi etkinken uygulanır",
+    "ModeRunning": "Çalışırken",
+    "ModeRunningTip": "Oyun süreci çalıştığı sürece renkler uygulanır",
+
+    "SectionVibrance": "CANLILIK",
+    "Vibrance": "Canlılık",
+    "VibranceHint": "%50 = nötr (NVIDIA ile aynı). %0 = siyah beyaz.",
+    "OverrideTitle": "+%100 Override",
+    "OverrideHint": "Sürücünün izin verdiğinin ötesinde %100–200 aralığını açar.",
+    "OverrideWarning": "%100'ün üzerinde renkler kırpılmaya başlar — parlak alanlardaki ayrıntı kaybolur.",
+
+    "SectionImage": "GÖRÜNTÜ",
+    "Contrast": "Kontrast",
+    "Brightness": "Parlaklık",
+    "Temperature": "Sıcaklık",
+    "TemperatureHint": "50'nin altı daha soğuk/mavi, üstü daha sıcak/turuncu.",
+    "Tint": "Renk tonu",
+    "TintHint": "50'nin altı yeşil, üstü macenta.",
+
+    "PreviewTitle": "Canlı önizleme",
+    "PreviewHint": "Seçilen profili ekranda anında gösterir.",
+
+    "BtnReset": "Sıfırla",
+    "BtnClose": "Kapat",
+    "BtnDelete": "Sil",
+    "OpenSettingsFolder": "Ayarlar klasörünü aç",
+
+    "PickTitle": "Oyunun .exe dosyasını seçin",
+    "PickFilter": "Programlar (*.exe)|*.exe|Tüm dosyalar (*.*)|*.*",
+    "DuplicateTitle": "Zaten eklendi",
+    "DuplicateBody": "“{0}” zaten {1} dosyasını kullanıyor.",
+    "DeleteTitle": "Onay",
+    "DeleteBody": "“{0}” profili silinsin mi?",
+    "ErrorTitle": "Hata",
+
+    "StatusEngineUnavailable": "Motor kullanılamıyor",
+    "StatusDisabled": "Kapalı",
+    "StatusDisabledDetail": "Ana anahtar kapalı",
+    "StatusPreview": "Canlı önizleme",
+    "StatusActive": "Etkin",
+    "StatusDesktop": "Masaüstü profili",
+    "StatusWaiting": "Oyun bekleniyor",
+    "StatusNoProfiles": "Profil yok",
+
+    "TrayShow": "Pencereyi göster",
+    "TrayExit": "Çıkış",
+    "EngineFailedBody": "Windows Büyüteç hizmeti başlamadı, bu yüzden renkler uygulanamıyor.",
+    "AlreadyRunningBody": "Digital Vibrance zaten çalışıyor.\nSistem tepsisindeki simgeye bakın.",
+    "CrashBody": "Beklenmeyen hata:"
+  }
+}

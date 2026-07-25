@@ -1,0 +1,77 @@
+{
+  "code": "ru",
+  "name": "Русский",
+  "englishName": "Russian",
+  "rtl": false,
+  "strings": {
+    "Tagline": "работает поверх драйвера",
+    "Master": "Главный",
+    "MasterTip": "Отключить все эффекты сразу",
+    "WinMinimize": "Свернуть",
+    "WinMaximize": "Развернуть",
+    "WinClose": "Закрыть",
+    "LanguageTip": "Сменить язык",
+
+    "GamesTitle": "Игры",
+    "GamesAdd": "Добавить игру",
+    "EmptyTitle": "Игр пока нет",
+    "EmptyHint": "Перетащите сюда .exe игры или нажмите «Добавить игру».",
+
+    "DesktopTitle": "Профиль рабочего стола",
+    "DesktopSubtitle": "Применяется, когда ни одна игра не активна.",
+    "DesktopUse": "Использовать на рабочем столе",
+    "ProfileToggleTip": "Включить или выключить этот профиль",
+
+    "ModeHeader": "КОГДА ПРИМЕНЯЕТСЯ",
+    "ModeForeground": "В фокусе",
+    "ModeForegroundTip": "Цвета применяются только когда окно игры активно",
+    "ModeRunning": "Пока запущена",
+    "ModeRunningTip": "Цвета применяются всё время, пока работает процесс игры",
+
+    "SectionVibrance": "НАСЫЩЕННОСТЬ",
+    "Vibrance": "Насыщенность",
+    "VibranceHint": "50% = нейтрально (как у NVIDIA). 0% = чёрно-белое.",
+    "OverrideTitle": "+100% Override",
+    "OverrideHint": "Открывает 100–200%, больше чем позволяет драйвер.",
+    "OverrideWarning": "Выше 100% цвета начинают срезаться — детали в ярких участках теряются.",
+
+    "SectionImage": "ИЗОБРАЖЕНИЕ",
+    "Contrast": "Контраст",
+    "Brightness": "Яркость",
+    "Temperature": "Температура",
+    "TemperatureHint": "Ниже 50 холоднее/синее, выше 50 теплее/оранжевее.",
+    "Tint": "Оттенок",
+    "TintHint": "Ниже 50 зелёный, выше 50 пурпурный.",
+
+    "PreviewTitle": "Живой просмотр",
+    "PreviewHint": "Сразу показывает выбранный профиль на экране.",
+
+    "BtnReset": "Сбросить",
+    "BtnClose": "Закрыть",
+    "BtnDelete": "Удалить",
+    "OpenSettingsFolder": "Открыть папку настроек",
+
+    "PickTitle": "Выберите .exe игры",
+    "PickFilter": "Программы (*.exe)|*.exe|Все файлы (*.*)|*.*",
+    "DuplicateTitle": "Уже добавлено",
+    "DuplicateBody": "«{0}» уже использует {1}.",
+    "DeleteTitle": "Подтверждение",
+    "DeleteBody": "Удалить профиль «{0}»?",
+    "ErrorTitle": "Ошибка",
+
+    "StatusEngineUnavailable": "Движок недоступен",
+    "StatusDisabled": "Выключено",
+    "StatusDisabledDetail": "Главный переключатель выключен",
+    "StatusPreview": "Живой просмотр",
+    "StatusActive": "Активно",
+    "StatusDesktop": "Профиль рабочего стола",
+    "StatusWaiting": "Жду игру",
+    "StatusNoProfiles": "Нет профилей",
+
+    "TrayShow": "Показать окно",
+    "TrayExit": "Выход",
+    "EngineFailedBody": "Служба экранной лупы Windows не запустилась, поэтому цвета применить нельзя.",
+    "AlreadyRunningBody": "Digital Vibrance уже запущен.\nПроверьте значок в области уведомлений.",
+    "CrashBody": "Непредвиденная ошибка:"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "code": "de",
+  "name": "Deutsch",
+  "englishName": "German",
+  "rtl": false,
+  "strings": {
+    "Tagline": "läuft über dem Treiber",
+    "Master": "Master",
+    "MasterTip": "Alle Effekte auf einmal ausschalten",
+    "WinMinimize": "Minimieren",
+    "WinMaximize": "Maximieren",
+    "WinClose": "Schließen",
+    "LanguageTip": "Sprache ändern",
+
+    "GamesTitle": "Spiele",
+    "GamesAdd": "Spiel hinzufügen",
+    "EmptyTitle": "Noch keine Spiele",
+    "EmptyHint": "Zieh die .exe eines Spiels hierher oder klick auf „Spiel hinzufügen”.",
+
+    "DesktopTitle": "Desktop-Profil",
+    "DesktopSubtitle": "Gilt, wenn kein Spiel aktiv ist.",
+    "DesktopUse": "Auf dem Desktop verwenden",
+    "ProfileToggleTip": "Dieses Profil ein- oder ausschalten",
+
+    "ModeHeader": "WANN ES GILT",
+    "ModeForeground": "Im Fokus",
+    "ModeForegroundTip": "Farben gelten nur, solange das Spielfenster im Vordergrund ist",
+    "ModeRunning": "Während es läuft",
+    "ModeRunningTip": "Farben gelten die ganze Zeit, solange der Spielprozess läuft",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50 % = neutral (wie bei NVIDIA). 0 % = Schwarzweiß.",
+    "OverrideTitle": "+100 % Override",
+    "OverrideHint": "Schaltet 100–200 % frei, über das hinaus, was der Treiber erlaubt.",
+    "OverrideWarning": "Über 100 % beginnen die Farben zu clippen — Details in hellen Flächen gehen verloren.",
+
+    "SectionImage": "BILD",
+    "Contrast": "Kontrast",
+    "Brightness": "Helligkeit",
+    "Temperature": "Temperatur",
+    "TemperatureHint": "Unter 50 kühler/blau, über 50 wärmer/orange.",
+    "Tint": "Farbstich",
+    "TintHint": "Unter 50 grün, über 50 magenta.",
+
+    "PreviewTitle": "Live-Vorschau",
+    "PreviewHint": "Zeigt das gewählte Profil sofort auf dem Bildschirm.",
+
+    "BtnReset": "Zurücksetzen",
+    "BtnClose": "Schließen",
+    "BtnDelete": "Löschen",
+    "OpenSettingsFolder": "Einstellungsordner öffnen",
+
+    "PickTitle": "Die .exe des Spiels auswählen",
+    "PickFilter": "Programme (*.exe)|*.exe|Alle Dateien (*.*)|*.*",
+    "DuplicateTitle": "Bereits hinzugefügt",
+    "DuplicateBody": "„{0}” verwendet bereits {1}.",
+    "DeleteTitle": "Bestätigen",
+    "DeleteBody": "Profil „{0}” löschen?",
+    "ErrorTitle": "Fehler",
+
+    "StatusEngineUnavailable": "Engine nicht verfügbar",
+    "StatusDisabled": "Aus",
+    "StatusDisabledDetail": "Master-Schalter ist aus",
+    "StatusPreview": "Live-Vorschau",
+    "StatusActive": "Aktiv",
+    "StatusDesktop": "Desktop-Profil",
+    "StatusWaiting": "Warte auf ein Spiel",
+    "StatusNoProfiles": "Keine Profile",
+
+    "TrayShow": "Fenster anzeigen",
+    "TrayExit": "Beenden",
+    "EngineFailedBody": "Der Windows-Bildschirmlupendienst wurde nicht gestartet, daher können keine Farben angewendet werden.",
+    "AlreadyRunningBody": "Digital Vibrance läuft bereits.\nSieh im Infobereich der Taskleiste nach.",
+    "CrashBody": "Unerwarteter Fehler:"
+  }
+}

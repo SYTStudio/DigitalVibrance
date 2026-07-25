@@ -1,0 +1,77 @@
+{
+  "code": "ja",
+  "name": "日本語",
+  "englishName": "Japanese",
+  "rtl": false,
+  "strings": {
+    "Tagline": "ドライバーの上で動作",
+    "Master": "マスター",
+    "MasterTip": "すべての効果を一度にオフにする",
+    "WinMinimize": "最小化",
+    "WinMaximize": "最大化",
+    "WinClose": "閉じる",
+    "LanguageTip": "言語を変更",
+
+    "GamesTitle": "ゲーム",
+    "GamesAdd": "ゲームを追加",
+    "EmptyTitle": "まだゲームがありません",
+    "EmptyHint": "ゲームの .exe をここにドロップするか、「ゲームを追加」をクリックしてください。",
+
+    "DesktopTitle": "デスクトッププロファイル",
+    "DesktopSubtitle": "ゲームがアクティブでないときに適用されます。",
+    "DesktopUse": "デスクトップで使用する",
+    "ProfileToggleTip": "このプロファイルを有効／無効にする",
+
+    "ModeHeader": "適用するタイミング",
+    "ModeForeground": "フォーカス時",
+    "ModeForegroundTip": "ゲームのウィンドウがアクティブなときだけ色が適用されます",
+    "ModeRunning": "実行中ずっと",
+    "ModeRunningTip": "ゲームのプロセスが動いている間ずっと色が適用されます",
+
+    "SectionVibrance": "バイブランス",
+    "Vibrance": "バイブランス",
+    "VibranceHint": "50% = ニュートラル（NVIDIA と同じ）。0% = 白黒。",
+    "OverrideTitle": "+100% オーバーライド",
+    "OverrideHint": "ドライバーが許す範囲を超えて 100〜200% を解放します。",
+    "OverrideWarning": "100% を超えると色が飽和し始め、明るい部分のディテールが失われます。",
+
+    "SectionImage": "画質",
+    "Contrast": "コントラスト",
+    "Brightness": "明るさ",
+    "Temperature": "色温度",
+    "TemperatureHint": "50 より下は寒色／青、上は暖色／オレンジ。",
+    "Tint": "色合い",
+    "TintHint": "50 より下は緑、上はマゼンタ。",
+
+    "PreviewTitle": "ライブプレビュー",
+    "PreviewHint": "選択したプロファイルをすぐに画面に表示します。",
+
+    "BtnReset": "リセット",
+    "BtnClose": "閉じる",
+    "BtnDelete": "削除",
+    "OpenSettingsFolder": "設定フォルダーを開く",
+
+    "PickTitle": "ゲームの .exe を選択",
+    "PickFilter": "プログラム (*.exe)|*.exe|すべてのファイル (*.*)|*.*",
+    "DuplicateTitle": "追加済み",
+    "DuplicateBody": "「{0}」はすでに {1} を使用しています。",
+    "DeleteTitle": "確認",
+    "DeleteBody": "プロファイル「{0}」を削除しますか？",
+    "ErrorTitle": "エラー",
+
+    "StatusEngineUnavailable": "エンジンが利用できません",
+    "StatusDisabled": "オフ",
+    "StatusDisabledDetail": "マスタースイッチがオフです",
+    "StatusPreview": "ライブプレビュー",
+    "StatusActive": "適用中",
+    "StatusDesktop": "デスクトッププロファイル",
+    "StatusWaiting": "ゲームを待機中",
+    "StatusNoProfiles": "プロファイルがありません",
+
+    "TrayShow": "ウィンドウを表示",
+    "TrayExit": "終了",
+    "EngineFailedBody": "Windows の拡大鏡サービスが開始しなかったため、色を適用できません。",
+    "AlreadyRunningBody": "Digital Vibrance はすでに実行中です。\n通知領域のアイコンを確認してください。",
+    "CrashBody": "予期しないエラー:"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "code": "fr",
+  "name": "Français",
+  "englishName": "French",
+  "rtl": false,
+  "strings": {
+    "Tagline": "fonctionne au-dessus du pilote",
+    "Master": "Master",
+    "MasterTip": "Désactiver tous les effets d'un coup",
+    "WinMinimize": "Réduire",
+    "WinMaximize": "Agrandir",
+    "WinClose": "Fermer",
+    "LanguageTip": "Changer de langue",
+
+    "GamesTitle": "Jeux",
+    "GamesAdd": "Ajouter un jeu",
+    "EmptyTitle": "Aucun jeu pour l'instant",
+    "EmptyHint": "Glissez ici l'.exe d'un jeu ou cliquez sur « Ajouter un jeu ».",
+
+    "DesktopTitle": "Profil bureau",
+    "DesktopSubtitle": "S'applique quand aucun jeu n'est actif.",
+    "DesktopUse": "Utiliser sur le bureau",
+    "ProfileToggleTip": "Activer ou désactiver ce profil",
+
+    "ModeHeader": "QUAND CELA S'APPLIQUE",
+    "ModeForeground": "Au premier plan",
+    "ModeForegroundTip": "Les couleurs ne s'appliquent que lorsque la fenêtre du jeu est active",
+    "ModeRunning": "Pendant l'exécution",
+    "ModeRunningTip": "Les couleurs s'appliquent tant que le processus du jeu tourne",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50 % = neutre (comme NVIDIA). 0 % = noir et blanc.",
+    "OverrideTitle": "+100 % Override",
+    "OverrideHint": "Débloque 100–200 %, au-delà de ce que le pilote autorise.",
+    "OverrideWarning": "Au-dessus de 100 %, les couleurs commencent à saturer — les détails des zones claires se perdent.",
+
+    "SectionImage": "IMAGE",
+    "Contrast": "Contraste",
+    "Brightness": "Luminosité",
+    "Temperature": "Température",
+    "TemperatureHint": "En dessous de 50 plus froid/bleu, au-dessus de 50 plus chaud/orange.",
+    "Tint": "Teinte",
+    "TintHint": "En dessous de 50 vert, au-dessus de 50 magenta.",
+
+    "PreviewTitle": "Aperçu en direct",
+    "PreviewHint": "Affiche immédiatement le profil sélectionné à l'écran.",
+
+    "BtnReset": "Réinitialiser",
+    "BtnClose": "Fermer",
+    "BtnDelete": "Supprimer",
+    "OpenSettingsFolder": "Ouvrir le dossier des réglages",
+
+    "PickTitle": "Choisir l'.exe du jeu",
+    "PickFilter": "Programmes (*.exe)|*.exe|Tous les fichiers (*.*)|*.*",
+    "DuplicateTitle": "Déjà ajouté",
+    "DuplicateBody": "« {0} » utilise déjà {1}.",
+    "DeleteTitle": "Confirmation",
+    "DeleteBody": "Supprimer le profil « {0} » ?",
+    "ErrorTitle": "Erreur",
+
+    "StatusEngineUnavailable": "Moteur indisponible",
+    "StatusDisabled": "Désactivé",
+    "StatusDisabledDetail": "L'interrupteur master est désactivé",
+    "StatusPreview": "Aperçu en direct",
+    "StatusActive": "Actif",
+    "StatusDesktop": "Profil bureau",
+    "StatusWaiting": "En attente d'un jeu",
+    "StatusNoProfiles": "Aucun profil",
+
+    "TrayShow": "Afficher la fenêtre",
+    "TrayExit": "Quitter",
+    "EngineFailedBody": "Le service Loupe de Windows n'a pas démarré, les couleurs ne peuvent donc pas être appliquées.",
+    "AlreadyRunningBody": "Digital Vibrance est déjà lancé.\nRegardez l'icône dans la zone de notification.",
+    "CrashBody": "Erreur inattendue :"
+  }
+}

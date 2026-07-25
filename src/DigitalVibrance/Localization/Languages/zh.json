@@ -1,0 +1,77 @@
+{
+  "code": "zh",
+  "name": "简体中文",
+  "englishName": "Chinese (Simplified)",
+  "rtl": false,
+  "strings": {
+    "Tagline": "运行于驱动之上",
+    "Master": "总开关",
+    "MasterTip": "一次关闭所有效果",
+    "WinMinimize": "最小化",
+    "WinMaximize": "最大化",
+    "WinClose": "关闭",
+    "LanguageTip": "更改语言",
+
+    "GamesTitle": "游戏",
+    "GamesAdd": "添加游戏",
+    "EmptyTitle": "还没有游戏",
+    "EmptyHint": "把游戏的 .exe 拖到这里，或点击“添加游戏”。",
+
+    "DesktopTitle": "桌面配置",
+    "DesktopSubtitle": "没有游戏处于活动状态时生效。",
+    "DesktopUse": "在桌面上使用",
+    "ProfileToggleTip": "启用或停用此配置",
+
+    "ModeHeader": "何时生效",
+    "ModeForeground": "在前台时",
+    "ModeForegroundTip": "仅在游戏窗口处于活动状态时应用颜色",
+    "ModeRunning": "运行期间",
+    "ModeRunningTip": "只要游戏进程在运行就一直应用颜色",
+
+    "SectionVibrance": "数字振动",
+    "Vibrance": "数字振动",
+    "VibranceHint": "50% = 中性（与 NVIDIA 一致）。0% = 黑白。",
+    "OverrideTitle": "+100% 超越",
+    "OverrideHint": "解锁 100–200%，超出驱动允许的范围。",
+    "OverrideWarning": "超过 100% 后颜色开始截断——明亮区域的细节会丢失。",
+
+    "SectionImage": "画面",
+    "Contrast": "对比度",
+    "Brightness": "亮度",
+    "Temperature": "色温",
+    "TemperatureHint": "低于 50 偏冷/偏蓝，高于 50 偏暖/偏橙。",
+    "Tint": "色调",
+    "TintHint": "低于 50 偏绿，高于 50 偏品红。",
+
+    "PreviewTitle": "实时预览",
+    "PreviewHint": "立即在屏幕上显示所选配置。",
+
+    "BtnReset": "重置",
+    "BtnClose": "关闭",
+    "BtnDelete": "删除",
+    "OpenSettingsFolder": "打开设置文件夹",
+
+    "PickTitle": "选择游戏的 .exe",
+    "PickFilter": "程序 (*.exe)|*.exe|所有文件 (*.*)|*.*",
+    "DuplicateTitle": "已添加",
+    "DuplicateBody": "“{0}”已经在使用 {1}。",
+    "DeleteTitle": "确认",
+    "DeleteBody": "要删除配置“{0}”吗？",
+    "ErrorTitle": "错误",
+
+    "StatusEngineUnavailable": "引擎不可用",
+    "StatusDisabled": "已关闭",
+    "StatusDisabledDetail": "总开关已关闭",
+    "StatusPreview": "实时预览",
+    "StatusActive": "生效中",
+    "StatusDesktop": "桌面配置",
+    "StatusWaiting": "等待游戏",
+    "StatusNoProfiles": "没有配置",
+
+    "TrayShow": "显示窗口",
+    "TrayExit": "退出",
+    "EngineFailedBody": "Windows 放大镜服务未启动，因此无法应用颜色。",
+    "AlreadyRunningBody": "Digital Vibrance 已在运行。\n请查看系统托盘图标。",
+    "CrashBody": "意外错误："
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "code": "en",
+  "name": "English",
+  "englishName": "English",
+  "rtl": false,
+  "strings": {
+    "Tagline": "runs above the driver",
+    "Master": "Master",
+    "MasterTip": "Turn every effect off at once",
+    "WinMinimize": "Minimise",
+    "WinMaximize": "Maximise",
+    "WinClose": "Close",
+    "LanguageTip": "Change language",
+
+    "GamesTitle": "Games",
+    "GamesAdd": "Add game",
+    "EmptyTitle": "No games yet",
+    "EmptyHint": "Drop a game's .exe here, or click “Add game”.",
+
+    "DesktopTitle": "Desktop profile",
+    "DesktopSubtitle": "Applies when no game is active.",
+    "DesktopUse": "Use on desktop",
+    "ProfileToggleTip": "Enable or disable this profile",
+
+    "ModeHeader": "WHEN IT APPLIES",
+    "ModeForeground": "In focus",
+    "ModeForegroundTip": "Colours apply only while the game window is focused",
+    "ModeRunning": "While running",
+    "ModeRunningTip": "Colours apply the whole time the game process is running",
+
+    "SectionVibrance": "VIBRANCE",
+    "Vibrance": "Vibrance",
+    "VibranceHint": "50% = neutral (same as NVIDIA). 0% = black and white.",
+    "OverrideTitle": "+100% Override",
+    "OverrideHint": "Unlocks 100–200%, beyond what the driver allows.",
+    "OverrideWarning": "Above 100% colours start to clip — detail in bright areas is lost.",
+
+    "SectionImage": "IMAGE",
+    "Contrast": "Contrast",
+    "Brightness": "Brightness",
+    "Temperature": "Temperature",
+    "TemperatureHint": "Below 50 cooler/blue, above 50 warmer/orange.",
+    "Tint": "Tint",
+    "TintHint": "Below 50 green, above 50 magenta.",
+
+    "PreviewTitle": "Live preview",
+    "PreviewHint": "Shows the selected profile on screen right away.",
+
+    "BtnReset": "Reset",
+    "BtnClose": "Close",
+    "BtnDelete": "Delete",
+    "OpenSettingsFolder": "Open settings folder",
+
+    "PickTitle": "Choose the game's .exe",
+    "PickFilter": "Programs (*.exe)|*.exe|All files (*.*)|*.*",
+    "DuplicateTitle": "Already added",
+    "DuplicateBody": "“{0}” already uses {1}.",
+    "DeleteTitle": "Confirm",
+    "DeleteBody": "Delete the profile “{0}”?",
+    "ErrorTitle": "Error",
+
+    "StatusEngineUnavailable": "Engine unavailable",
+    "StatusDisabled": "Off",
+    "StatusDisabledDetail": "Master switch is off",
+    "StatusPreview": "Live preview",
+    "StatusActive": "Active",
+    "StatusDesktop": "Desktop profile",
+    "StatusWaiting": "Waiting for a game",
+    "StatusNoProfiles": "No profiles",
+
+    "TrayShow": "Show window",
+    "TrayExit": "Exit",
+    "EngineFailedBody": "The Windows Magnification service did not start, so colours cannot be applied.",
+    "AlreadyRunningBody": "Digital Vibrance is already running.\nCheck the system tray icon.",
+    "CrashBody": "Unexpected error:"
+  }
+}
