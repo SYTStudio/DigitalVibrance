@@ -127,8 +127,8 @@ key you leave out falls back to English, so a partial translation never breaks t
 Requires the [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 ```bash
-git clone https://github.com/SYTStudio/DigitalVibranceSoftware.git
-cd DigitalVibranceSoftware
+git clone https://github.com/SYTStudio/DigitalVibrance.git
+cd DigitalVibrance
 dotnet run --project src/DigitalVibrance/DigitalVibrance.csproj
 ```
 
