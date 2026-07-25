@@ -174,3 +174,17 @@ src/DigitalVibrance/
 ├─ Views/          main window + slider component
 └─ Themes/         dark theme
 ```
+
+---
+
+<div align="center">
+
+## Support
+
+Digital Vibrance is free to use. If it earned a permanent spot in your setup,
+you can buy me a coffee — entirely optional, never nagged about in the app.
+
+[![PayPal](https://img.shields.io/badge/PayPal-Buy%20me%20a%20coffee-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/SamiBeat)
+
+</div>
+
