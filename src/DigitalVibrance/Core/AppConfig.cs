@@ -21,4 +21,7 @@ public sealed class AppConfig
 
     /// <summary>ISO code of the chosen language. Null means "follow the OS display language".</summary>
     public string? Language { get; set; }
+
+    /// <summary>"Dark" or "Light". Null means "follow the Windows app theme".</summary>
+    public string? Theme { get; set; }
 }

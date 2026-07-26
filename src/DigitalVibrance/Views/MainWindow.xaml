@@ -8,12 +8,12 @@
         Title="Digital Vibrance"
         Width="1120" Height="720" MinWidth="940" MinHeight="580"
         WindowStartupLocation="CenterScreen"
-        Background="{StaticResource Bg}"
+        Background="{DynamicResource Bg}"
         AllowDrop="True"
         DragOver="OnDragOver" Drop="OnDrop"
         FlowDirection="{Binding FlowDirection}"
         FontFamily="{StaticResource UiFont}" FontSize="13"
-        Foreground="{StaticResource Text}"
+        Foreground="{DynamicResource Text}"
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="ClearType">
 
@@ -31,20 +31,24 @@
         </Grid.RowDefinitions>
 
         <!-- ==================== title bar ==================== -->
-        <Grid Grid.Row="0" Background="{StaticResource Surface}">
+        <Grid Grid.Row="0" Background="{DynamicResource Surface}">
             <StackPanel Orientation="Horizontal" Margin="14,0,0,0" VerticalAlignment="Center">
-                <Border Width="16" Height="16" CornerRadius="5" Background="{StaticResource AccentGrad}"/>
+                <Border Width="16" Height="16" CornerRadius="5" Background="{DynamicResource AccentGrad}"/>
                 <TextBlock Text="Digital Vibrance" FontWeight="SemiBold" FontSize="12.5"
                            Margin="9,0,0,0" VerticalAlignment="Center"/>
-                <Border Background="{StaticResource Card}" CornerRadius="5" Padding="7,2"
+                <Border Background="{DynamicResource Card}" CornerRadius="5" Padding="7,2"
                         Margin="12,0,0,0" VerticalAlignment="Center">
                     <TextBlock Text="{loc:T Tagline}" FontSize="10"
-                               Foreground="{StaticResource TextFaint}"/>
+                               Foreground="{DynamicResource TextFaint}"/>
                 </Border>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center"
                         shell:WindowChrome.IsHitTestVisibleInChrome="True">
+
+                <Button Style="{StaticResource CaptionButton}" Command="{Binding ToggleThemeCommand}"
+                        Content="{Binding ThemeGlyph}" FontSize="13" Width="38"
+                        ToolTip="{loc:T ThemeTip}"/>
 
                 <ToggleButton x:Name="LangButton" Style="{StaticResource LangToggle}"
                               IsChecked="{Binding IsLanguageMenuOpen, Mode=TwoWay}"
@@ -60,8 +64,8 @@
                 <Popup IsOpen="{Binding IsLanguageMenuOpen, Mode=TwoWay}" StaysOpen="False"
                        PlacementTarget="{Binding ElementName=LangButton}" Placement="Bottom"
                        VerticalOffset="6" AllowsTransparency="True" PopupAnimation="Fade">
-                    <Border Background="{StaticResource Surface}" CornerRadius="10" Padding="6"
-                            BorderBrush="{StaticResource BorderStrong}" BorderThickness="1"
+                    <Border Background="{DynamicResource Surface}" CornerRadius="10" Padding="6"
+                            BorderBrush="{DynamicResource BorderStrong}" BorderThickness="1"
                             Margin="12">
                         <Border.Effect>
                             <DropShadowEffect BlurRadius="22" ShadowDepth="4" Opacity="0.55" Color="Black"/>
@@ -83,7 +87,7 @@
                                                 <TextBlock Text="&#xE73E;" FontFamily="Segoe MDL2 Assets"
                                                            FontSize="12" VerticalAlignment="Center"
                                                            HorizontalAlignment="Right"
-                                                           Foreground="{StaticResource Accent2}"
+                                                           Foreground="{DynamicResource Accent2}"
                                                            Visibility="{Binding IsCurrent,
                                                                         Converter={StaticResource BoolToVis}}"/>
                                             </Grid>
@@ -95,7 +99,7 @@
                     </Border>
                 </Popup>
 
-                <TextBlock Text="{loc:T Master}" FontSize="12" Foreground="{StaticResource TextDim}"
+                <TextBlock Text="{loc:T Master}" FontSize="12" Foreground="{DynamicResource TextDim}"
                            VerticalAlignment="Center" Margin="0,0,8,0"/>
                 <ToggleButton Style="{StaticResource Switch}" IsChecked="{Binding MasterEnabled}"
                               ToolTip="{loc:T MasterTip}" VerticalAlignment="Center"
@@ -127,10 +131,10 @@
                 <Grid Grid.Row="0" Margin="0,0,12,16">
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                         <TextBlock Text="{loc:T GamesTitle}" Style="{StaticResource H1}"/>
-                        <Border Background="{StaticResource Card}" CornerRadius="9" Padding="7,1"
+                        <Border Background="{DynamicResource Card}" CornerRadius="9" Padding="7,1"
                                 Margin="9,0,0,0" VerticalAlignment="Center">
                             <TextBlock Text="{Binding Games.Count}" FontSize="11"
-                                       Foreground="{StaticResource TextDim}"/>
+                                       Foreground="{DynamicResource TextDim}"/>
                         </Border>
                     </StackPanel>
                     <Button Style="{StaticResource PrimaryButton}" HorizontalAlignment="Right"
@@ -164,7 +168,7 @@
                                                 <Grid Grid.Row="0">
                                                     <Border Width="46" Height="46" CornerRadius="10"
                                                             HorizontalAlignment="Left"
-                                                            Background="{StaticResource AccentGrad}" Opacity="0.18"/>
+                                                            Background="{DynamicResource AccentGrad}" Opacity="0.18"/>
                                                     <!-- icons must not mirror in right-to-left layouts -->
                                                     <Image Source="{Binding Icon}" Width="46" Height="46"
                                                            HorizontalAlignment="Left"
@@ -175,11 +179,11 @@
                                                                 HorizontalAlignment="Right" VerticalAlignment="Top"
                                                                 Visibility="{Binding IsActive,
                                                                              Converter={StaticResource BoolToVis}}">
-                                                        <Ellipse Width="7" Height="7" Fill="{StaticResource Success}"
+                                                        <Ellipse Width="7" Height="7" Fill="{DynamicResource Success}"
                                                                  VerticalAlignment="Center"/>
                                                         <TextBlock Text="{loc:T StatusActive}" FontSize="9"
                                                                    FontWeight="SemiBold"
-                                                                   Foreground="{StaticResource Success}"
+                                                                   Foreground="{DynamicResource Success}"
                                                                    Margin="4,0,0,0" VerticalAlignment="Center"/>
                                                     </StackPanel>
                                                 </Grid>
@@ -193,19 +197,19 @@
                                                 </StackPanel>
 
                                                 <Grid Grid.Row="2" Margin="0,10,0,0">
-                                                    <Border Background="{StaticResource Bg}" CornerRadius="5"
+                                                    <Border Background="{DynamicResource Bg}" CornerRadius="5"
                                                             Padding="6,2" HorizontalAlignment="Left">
                                                         <TextBlock FontSize="10" FontWeight="SemiBold"
-                                                                   Foreground="{StaticResource Accent2}">
+                                                                   Foreground="{DynamicResource Accent2}">
                                                             <Run Text="{Binding Color.Vibrance, Mode=OneWay}"/><Run Text="%"/>
                                                         </TextBlock>
                                                     </Border>
-                                                    <Border Background="#33FF5C7A" CornerRadius="5" Padding="6,2"
+                                                    <Border Background="{DynamicResource DangerFill}" CornerRadius="5" Padding="6,2"
                                                             HorizontalAlignment="Right"
                                                             Visibility="{Binding Color.OverrideEnabled,
                                                                          Converter={StaticResource BoolToVis}}">
                                                         <TextBlock Text="OVR" FontSize="9" FontWeight="Bold"
-                                                                   Foreground="{StaticResource Danger}"/>
+                                                                   Foreground="{DynamicResource Danger}"/>
                                                     </Border>
                                                 </Grid>
                                             </Grid>
@@ -216,13 +220,13 @@
                         </ItemsControl>
 
                         <!-- empty state -->
-                        <Border Background="{StaticResource Surface}" CornerRadius="14" Padding="40,44"
-                                BorderBrush="{StaticResource Border}" BorderThickness="1.5"
+                        <Border Background="{DynamicResource Surface}" CornerRadius="14" Padding="40,44"
+                                BorderBrush="{DynamicResource Border}" BorderThickness="1.5"
                                 VerticalAlignment="Top" Margin="0,4,12,0"
                                 Visibility="{Binding NoGames, Converter={StaticResource BoolToVis}}">
                             <StackPanel HorizontalAlignment="Center">
                                 <Border Width="52" Height="52" CornerRadius="16"
-                                        Background="{StaticResource AccentGrad}" Opacity="0.22"
+                                        Background="{DynamicResource AccentGrad}" Opacity="0.22"
                                         HorizontalAlignment="Center"/>
                                 <TextBlock Text="{loc:T EmptyTitle}" FontSize="15" FontWeight="SemiBold"
                                            HorizontalAlignment="Center" Margin="0,16,0,0"/>
@@ -239,8 +243,8 @@
             </Grid>
 
             <!-- ===== settings panel ===== -->
-            <Border Grid.Column="1" Background="{StaticResource Surface}"
-                    BorderBrush="{StaticResource Border}" BorderThickness="1,0,0,0">
+            <Border Grid.Column="1" Background="{DynamicResource Surface}"
+                    BorderBrush="{DynamicResource Border}" BorderThickness="1,0,0,0">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -249,7 +253,7 @@
                     </Grid.RowDefinitions>
 
                     <!-- panel header -->
-                    <Border Grid.Row="0" Padding="20,18" BorderBrush="{StaticResource Border}"
+                    <Border Grid.Row="0" Padding="20,18" BorderBrush="{DynamicResource Border}"
                             BorderThickness="0,0,0,1">
                         <StackPanel>
                             <!-- game header -->
@@ -290,7 +294,7 @@
                                         <ToggleButton Style="{StaticResource Switch}"
                                                       IsChecked="{Binding ApplyToDesktop}"/>
                                         <TextBlock Text="{loc:T DesktopUse}" FontSize="12"
-                                                   Foreground="{StaticResource TextDim}"
+                                                   Foreground="{DynamicResource TextDim}"
                                                    VerticalAlignment="Center" Margin="10,0,0,0"/>
                                     </StackPanel>
                                 </StackPanel>
@@ -305,7 +309,7 @@
                             <StackPanel Visibility="{Binding HasSelection, Converter={StaticResource BoolToVis}}"
                                         Margin="0,0,0,20">
                                 <TextBlock Text="{loc:T ModeHeader}" Style="{StaticResource SectionLabel}"/>
-                                <Border Background="{StaticResource Bg}" CornerRadius="8" Padding="3">
+                                <Border Background="{DynamicResource Bg}" CornerRadius="8" Padding="3">
                                     <UniformGrid Columns="2">
                                         <RadioButton Style="{StaticResource Segment}" Content="{loc:T ModeForeground}"
                                                      GroupName="Mode"
@@ -328,7 +332,7 @@
                                              Value="{Binding EditedProfile.Vibrance, Mode=TwoWay}"
                                              Hint="{loc:T VibranceHint}"/>
 
-                            <Border Background="{StaticResource Bg}" CornerRadius="10" Padding="12,10"
+                            <Border Background="{DynamicResource Bg}" CornerRadius="10" Padding="12,10"
                                     Margin="0,0,0,20">
                                 <StackPanel>
                                     <Grid>
@@ -346,11 +350,11 @@
                                                       VerticalAlignment="Top"
                                                       IsChecked="{Binding EditedProfile.OverrideEnabled}"/>
                                     </Grid>
-                                    <Border Background="#26FFB020" CornerRadius="6" Padding="9,7" Margin="0,10,0,0"
+                                    <Border Background="{DynamicResource WarningFill}" CornerRadius="6" Padding="9,7" Margin="0,10,0,0"
                                             Visibility="{Binding EditedProfile.OverrideEnabled,
                                                          Converter={StaticResource BoolToVis}}">
                                         <TextBlock Text="{loc:T OverrideWarning}" FontSize="10.5"
-                                                   Foreground="{StaticResource Warning}" TextWrapping="Wrap"/>
+                                                   Foreground="{DynamicResource Warning}" TextWrapping="Wrap"/>
                                     </Border>
                                 </StackPanel>
                             </Border>
@@ -370,7 +374,7 @@
                                              Hint="{loc:T TintHint}"/>
 
                             <!-- live preview -->
-                            <Border Background="{StaticResource Bg}" CornerRadius="10" Padding="12,10"
+                            <Border Background="{DynamicResource Bg}" CornerRadius="10" Padding="12,10"
                                     Margin="0,6,0,0">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -390,7 +394,7 @@
                     </ScrollViewer>
 
                     <!-- panel footer -->
-                    <Border Grid.Row="2" Padding="20,14" BorderBrush="{StaticResource Border}"
+                    <Border Grid.Row="2" Padding="20,14" BorderBrush="{DynamicResource Border}"
                             BorderThickness="0,1,0,0">
                         <Grid>
                             <Button Style="{StaticResource GhostButton}" Content="{loc:T BtnReset}"
@@ -410,26 +414,26 @@
         </Grid>
 
         <!-- ==================== status bar ==================== -->
-        <Border Grid.Row="2" Background="{StaticResource Surface}"
-                BorderBrush="{StaticResource Border}" BorderThickness="0,1,0,0">
+        <Border Grid.Row="2" Background="{DynamicResource Surface}"
+                BorderBrush="{DynamicResource Border}" BorderThickness="0,1,0,0">
             <Grid Margin="16,0">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                     <Ellipse Width="7" Height="7" VerticalAlignment="Center">
                         <Ellipse.Style>
                             <Style TargetType="Ellipse">
-                                <Setter Property="Fill" Value="{StaticResource TextFaint}"/>
+                                <Setter Property="Fill" Value="{DynamicResource TextFaint}"/>
                                 <Style.Triggers>
                                     <DataTrigger Binding="{Binding Status}" Value="{x:Static vm:StatusKind.Active}">
-                                        <Setter Property="Fill" Value="{StaticResource Success}"/>
+                                        <Setter Property="Fill" Value="{DynamicResource Success}"/>
                                     </DataTrigger>
                                     <DataTrigger Binding="{Binding Status}" Value="{x:Static vm:StatusKind.Preview}">
-                                        <Setter Property="Fill" Value="{StaticResource Accent2}"/>
+                                        <Setter Property="Fill" Value="{DynamicResource Accent2}"/>
                                     </DataTrigger>
                                     <DataTrigger Binding="{Binding Status}" Value="{x:Static vm:StatusKind.Desktop}">
-                                        <Setter Property="Fill" Value="{StaticResource Accent}"/>
+                                        <Setter Property="Fill" Value="{DynamicResource Accent}"/>
                                     </DataTrigger>
                                     <DataTrigger Binding="{Binding Status}" Value="{x:Static vm:StatusKind.Unavailable}">
-                                        <Setter Property="Fill" Value="{StaticResource Danger}"/>
+                                        <Setter Property="Fill" Value="{DynamicResource Danger}"/>
                                     </DataTrigger>
                                 </Style.Triggers>
                             </Style>

@@ -1,0 +1,65 @@
+<!--
+    Dark palette. Light.xaml declares the exact same set of keys, and ThemeManager swaps one
+    dictionary for the other at runtime, so every key added here must be added there too.
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- surfaces, from furthest back to closest -->
+    <SolidColorBrush x:Key="Bg" Color="#0B0C10"/>
+    <SolidColorBrush x:Key="Surface" Color="#12141B"/>
+    <SolidColorBrush x:Key="Card" Color="#191C25"/>
+    <SolidColorBrush x:Key="CardHover" Color="#222634"/>
+    <SolidColorBrush x:Key="Track" Color="#2A2F3D"/>
+
+    <SolidColorBrush x:Key="Border" Color="#252A37"/>
+    <SolidColorBrush x:Key="BorderStrong" Color="#394156"/>
+
+    <!-- text, from most to least prominent -->
+    <SolidColorBrush x:Key="Text" Color="#ECEEF4"/>
+    <SolidColorBrush x:Key="TextDim" Color="#8A92A6"/>
+    <!-- #5C6478 measured 3.1:1 against Surface, too low for the 10.5px section headers -->
+    <SolidColorBrush x:Key="TextFaint" Color="#767E92"/>
+
+    <!-- accents and status -->
+    <SolidColorBrush x:Key="Accent" Color="#7C5CFF"/>
+    <SolidColorBrush x:Key="Accent2" Color="#00E5C0"/>
+    <SolidColorBrush x:Key="Danger" Color="#FF5C7A"/>
+    <SolidColorBrush x:Key="Success" Color="#3DDC84"/>
+    <SolidColorBrush x:Key="Warning" Color="#FFB020"/>
+
+    <!-- translucent fills for badges and callouts -->
+    <SolidColorBrush x:Key="DangerFill" Color="#FF5C7A" Opacity="0.2"/>
+    <SolidColorBrush x:Key="WarningFill" Color="#FFB020" Opacity="0.15"/>
+    <SolidColorBrush x:Key="AccentGlow" Color="#7C5CFF" Opacity="0.18"/>
+
+    <!-- text colour that sits on top of AccentGrad / ButtonGrad -->
+    <SolidColorBrush x:Key="OnAccent" Color="#0B0C10"/>
+
+    <!-- hover wash for caption buttons: lightens on dark, darkens on light -->
+    <SolidColorBrush x:Key="HoverOverlay" Color="#FFFFFF" Opacity="0.13"/>
+
+    <!-- toggle switch knob while off -->
+    <SolidColorBrush x:Key="KnobOff" Color="#7A8298"/>
+
+    <LinearGradientBrush x:Key="AccentGrad" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#7C5CFF" Offset="0"/>
+        <GradientStop Color="#00E5C0" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!--
+        Same brand gradient as AccentGrad but lifted at the violet end. AccentGrad's #7C5CFF is
+        only 4.4:1 against the dark label that sits on a filled button; #9B7CFF takes it to 6.2:1.
+    -->
+    <LinearGradientBrush x:Key="ButtonGrad" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#9B7CFF" Offset="0"/>
+        <GradientStop Color="#00E5C0" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="VibranceGrad" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#5A6072" Offset="0"/>
+        <GradientStop Color="#7C5CFF" Offset="0.55"/>
+        <GradientStop Color="#00E5C0" Offset="1"/>
+    </LinearGradientBrush>
+
+</ResourceDictionary>

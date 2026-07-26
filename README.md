@@ -50,6 +50,7 @@ doing, this sits above it.
 - **Vendor-neutral** — one code path for every GPU. No NVAPI, no ADL, no vendor SDKs.
 - **Nothing injected** — no hooks, no overlay, no DLL injection into your games. Safe with
   anti-cheat, because it never goes near the game process.
+- **Light and dark themes**, matching your Windows theme on first run and switching instantly.
 - **16 languages** with instant switching, including right-to-left layouts.
 - **Drag & drop** an `.exe` onto the window to add a game.
 - **Lives in the tray** and restores the screen cleanly on exit.
@@ -172,7 +173,7 @@ src/DigitalVibrance/
 ├─ Localization/   string table + 16 languages (Languages/*.json)
 ├─ ViewModels/     the logic deciding which profile is active
 ├─ Views/          main window + slider component
-└─ Themes/         dark theme
+└─ Themes/         Dark.xaml + Light.xaml palettes, Theme.xaml styles
 ```
 
 ---

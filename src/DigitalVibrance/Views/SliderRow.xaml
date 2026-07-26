@@ -5,7 +5,7 @@
     <StackPanel Margin="0,0,0,14">
         <Grid Margin="0,0,0,5">
             <TextBlock Text="{Binding Label, ElementName=Root}"
-                       FontSize="12.5" Foreground="{StaticResource Text}"/>
+                       FontSize="12.5" Foreground="{DynamicResource Text}"/>
             <TextBlock HorizontalAlignment="Right" FontSize="12.5" FontWeight="SemiBold"
                        Foreground="{Binding ValueBrush, ElementName=Root}">
                 <Run Text="{Binding Value, ElementName=Root, StringFormat={}{0:0}}"/><Run Text="{Binding Unit, ElementName=Root, Mode=OneWay}"/>

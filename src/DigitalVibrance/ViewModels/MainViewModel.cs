@@ -48,9 +48,12 @@ public sealed class MainViewModel : ObservableObject, IDisposable
     {
         _config = ConfigStore.Load();
 
-        // A stored choice wins; otherwise follow the OS display language on first run.
+        // A stored choice wins; otherwise follow the OS on first run.
         Loc.Instance.Use(_config.Language ?? Loc.Instance.DetectSystemCode());
         Loc.Instance.LanguageChanged += OnLanguageChanged;
+
+        ThemeManager.Instance.Use(ThemeManager.Parse(_config.Theme));
+        ThemeManager.Instance.ThemeChanged += OnThemeChanged;
 
         _engine = new VibranceEngine();
         _watcher = new GameWatcher();
@@ -79,6 +82,7 @@ public sealed class MainViewModel : ObservableObject, IDisposable
         ResetSelectedCommand = new RelayCommand(() => (SelectedGame?.Color ?? Desktop).ResetToNeutral());
         OpenConfigFolderCommand = new RelayCommand(OpenConfigFolder);
         SetLanguageCommand = new RelayCommand(p => SetLanguage(p as LanguagePack));
+        ToggleThemeCommand = new RelayCommand(ToggleTheme);
 
         Reevaluate();
     }
@@ -92,6 +96,21 @@ public sealed class MainViewModel : ObservableObject, IDisposable
     public RelayCommand ResetSelectedCommand { get; }
     public RelayCommand OpenConfigFolderCommand { get; }
     public RelayCommand SetLanguageCommand { get; }
+    public RelayCommand ToggleThemeCommand { get; }
+
+    // ---------- theme ----------
+
+    /// <summary>Segoe MDL2 glyph on the theme button: shows the theme it will switch to.</summary>
+    public string ThemeGlyph => ThemeManager.Instance.ToggleGlyph;
+
+    private void ToggleTheme()
+    {
+        ThemeManager.Instance.Toggle();
+        _config.Theme = ThemeManager.Instance.Current.ToString();
+        ScheduleSave();
+    }
+
+    private void OnThemeChanged(object? sender, EventArgs e) => Raise(nameof(ThemeGlyph));
 
     // ---------- language ----------
 
@@ -458,6 +477,7 @@ public sealed class MainViewModel : ObservableObject, IDisposable
         _disposed = true;
 
         Loc.Instance.LanguageChanged -= OnLanguageChanged;
+        ThemeManager.Instance.ThemeChanged -= OnThemeChanged;
 
         _saveTimer.Stop();
         SaveNow();

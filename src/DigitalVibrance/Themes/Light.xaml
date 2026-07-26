@@ -1,0 +1,59 @@
+<!--
+    Light palette. Mirrors every key in Dark.xaml.
+
+    Not a mechanical inversion: the dark theme's accents are bright colours picked to glow
+    against near-black, and several of them (#00E5C0 especially) drop to roughly 3:1 against
+    white, which is not enough for the small bold labels they are used for. The accents here
+    are deepened so each one clears 4.5:1 on Surface.
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- surfaces: a tinted page so white cards lift off it -->
+    <SolidColorBrush x:Key="Bg" Color="#EFF1F6"/>
+    <SolidColorBrush x:Key="Surface" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="Card" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="CardHover" Color="#F3F5FA"/>
+    <SolidColorBrush x:Key="Track" Color="#DCE0EA"/>
+
+    <SolidColorBrush x:Key="Border" Color="#E3E7F0"/>
+    <SolidColorBrush x:Key="BorderStrong" Color="#C2C9D8"/>
+
+    <SolidColorBrush x:Key="Text" Color="#14161D"/>
+    <SolidColorBrush x:Key="TextDim" Color="#5A6277"/>
+    <SolidColorBrush x:Key="TextFaint" Color="#6E7689"/>
+
+    <SolidColorBrush x:Key="Accent" Color="#6A45E6"/>
+    <SolidColorBrush x:Key="Accent2" Color="#00846D"/>
+    <SolidColorBrush x:Key="Danger" Color="#D92D4E"/>
+    <SolidColorBrush x:Key="Success" Color="#0E7D43"/>
+    <SolidColorBrush x:Key="Warning" Color="#8A5A00"/>
+
+    <SolidColorBrush x:Key="DangerFill" Color="#D92D4E" Opacity="0.12"/>
+    <SolidColorBrush x:Key="WarningFill" Color="#C98200" Opacity="0.16"/>
+    <SolidColorBrush x:Key="AccentGlow" Color="#6A45E6" Opacity="0.14"/>
+
+    <!-- the filled button keeps its bright gradient, so its label stays dark in both themes -->
+    <SolidColorBrush x:Key="OnAccent" Color="#0B0C10"/>
+
+    <SolidColorBrush x:Key="HoverOverlay" Color="#000000" Opacity="0.07"/>
+
+    <SolidColorBrush x:Key="KnobOff" Color="#FFFFFF"/>
+
+    <LinearGradientBrush x:Key="AccentGrad" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#7C5CFF" Offset="0"/>
+        <GradientStop Color="#00E5C0" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="ButtonGrad" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#9B7CFF" Offset="0"/>
+        <GradientStop Color="#00E5C0" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="VibranceGrad" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#C2C9D8" Offset="0"/>
+        <GradientStop Color="#7C5CFF" Offset="0.55"/>
+        <GradientStop Color="#00C9A7" Offset="1"/>
+    </LinearGradientBrush>
+
+</ResourceDictionary>
